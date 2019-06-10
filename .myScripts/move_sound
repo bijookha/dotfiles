@@ -1,0 +1,12 @@
+#!/bin/bash
+echo 'INPUTS'
+pacmd list-sink-inputs | egrep 'index|client'
+echo 'OUTPUTS'
+pacmd list-sinks | egrep 'index|product.name'
+
+echo "index of input"
+read input
+echo "index of output"
+read output
+pacmd move-sink-input $input $output
+
