@@ -1,0 +1,11 @@
+( if
+  ( or
+    ( contains ( window_class ) "vlc" )
+    ( contains ( application_name ) "Mplayer" )
+  )
+  ( begin
+    (unmaximize)
+    (geometry "1800x770+68+122" )
+  )
+)
+
