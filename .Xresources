@@ -1,0 +1,28 @@
+urxvt.transparent:  true
+urxvt.scrollBar:    false
+urxvt.saveLines:    10000
+
+
+!color
+urxvt.background:[95]#020202
+urxvt.foreground:#00cc00
+urxvt.colorBD:#888800
+urxvt.colorIT:#008800
+urxvt.colorUL:#ffaa00
+urxvt.underlineColor:#cccc00
+urxvt.highlightColor:#555555
+urxvt.highlightTextColor:#000000
+urxvt.cursorColor:#aaaa00
+urxvt.fading:16
+urxvt.fadeColor:black
+urxvt.scrollColor:#666666
+!urxvt.troughColor: colour
+!urxvt.borderColor: colour
+ 
+urxvt.perl-ext-common:  resize-font
+urxvt.iso14755:         false
+urxvt.iso14755_52:      false
+
+urxvt.font:   xft:Monospace:size=9
+urxvt.boldFont: false
+urxvt.letterSpace :0
