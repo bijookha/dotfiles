@@ -1,0 +1,7 @@
+colors.scheme=theme,gs
+audio.stereo.enabled=false
+visualizer.spectrum.bar.spacing=1
+visualizer.spectrum.smoothing.mode=sgs
+visualizer.spectrum.falloff.mode=fill
+
+

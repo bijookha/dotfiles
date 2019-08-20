@@ -2,7 +2,7 @@
       (matches (window_class) "MPlayer")
       (matches (window_class) "vlc")
       (matches (window_class) "Firefox")
-      (matches (window_class) "Chromium")
+      (matches (window_class) "URxvt")
     )
   (begin
     (undecorate)
