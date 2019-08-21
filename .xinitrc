@@ -1,4 +1,4 @@
-devilspie &
+#devilspie &
 tunnel &
 ~/.fehbg &
 xrdb ~/.Xresources &
