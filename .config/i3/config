@@ -50,7 +50,8 @@ bindsym $mod+d exec dmenu_run
 #gaps inner $mygap
 #gaps outer -$mygap
 
-
+#lock
+bindsym Mod1+Control+l exec lock_screen
 # change focus
 bindsym $mod+h focus left
 bindsym $mod+j focus down
