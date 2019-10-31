@@ -1,5 +1,5 @@
 urxvt.transparent:  true
-urxvt.shading:      20
+urxvt.shading:      10
 urxvt.scrollBar:    false
 urxvt.saveLines:    10000
 
@@ -23,6 +23,16 @@ urxvt.perl-ext-common:  resize-font
 urxvt.iso14755:         false
 urxvt.iso14755_52:      false
 
-urxvt.font:   xft:Monospace:size=12
-urxvt.boldFont: false
+!urxvt.font:   xft:Monospace:size=12:antialias=true
+urxvt.font:   xft:UbuntuMono:size=12:antialias=true
+urxvt.boldFont:   xft:UbuntuMono:bold:size=12:antialias=true
 urxvt.letterSpace :0
+
+
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintfull
+Xft.lcdfilter: lcddefault
