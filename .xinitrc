@@ -1,5 +1,5 @@
 #devilspie &
-tunnel &
+#tunnel &
 ~/.fehbg &
 xrdb ~/.Xresources &
 i3
