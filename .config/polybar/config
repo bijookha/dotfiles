@@ -264,7 +264,8 @@ bar-volume-empty-foreground = ${colors.foreground-alt}
 
 [module/gputemp]
 type = custom/script
-exec = sensors | grep -e "temp1:.*hyst.*" | sed 's/temp1:[[:space:]]*+//;s/[ ].*$//;s/[.].//'
+;exec = sensors | grep -e "temp1:.*hyst.*" | sed 's/temp1:[[:space:]]*+//;s/[ ].*$//;s/[.].//'
+exec = sensors | grep 'edge' | sed 's/edge:[[:space:]]*+//;s/[ ].*//;s/[.].//;s/,//'
 interval = 2
 format-underline = #f50a4d
 format-prefix=
