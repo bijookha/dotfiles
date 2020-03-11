@@ -1,3 +1,5 @@
 pkill autossh;
 sleep 1;
-autossh -M 0 -o "ServerAliveInterval 30" -o "ServerAliveCountMax 3" -fqN -D 1080  qa@helena
+autossh -M 0 -o "ServerAliveInterval 30" -o "ServerAliveCountMax 3" -fN -L 1080:localhost:9050 naash@saqi
+#sleep 1;
+#autossh -M 0 -o "ServerAliveInterval 30" -o "ServerAliveCountMax 3" -fqN -D 1090  qa@helena
