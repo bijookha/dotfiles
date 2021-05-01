@@ -1,0 +1,7 @@
+grub-mkconfig -o /boot/grub/grub.cfg
+
+#mounted esp at espt
+mount /dev/nvme0n1p1 /espt/
+
+grub-install --target=x86_64-efi --efi-directory=/espt/ --bootloader-id=GRUB --removable
+
