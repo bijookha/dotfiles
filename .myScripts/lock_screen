@@ -6,7 +6,7 @@ xset dpms force off
 while : ; do
   if ! pgrep  "i3lock" > /dev/null
 then
-  xset dpms 0 0 0
+  xset dpms 360 360 360
   xset dpms force on
   break
 else
